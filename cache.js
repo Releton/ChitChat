@@ -1,5 +1,5 @@
 import { NextFunction, Request, response, Response } from "express";
-import app from './app'
+import app from './index'
 
 const setCache =  (Request, Response, NextFunction) => {
     const period = 60 * 5
